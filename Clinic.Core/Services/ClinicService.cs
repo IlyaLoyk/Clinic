@@ -103,7 +103,6 @@ public class ClinicService
 
     /// Записує пацієнта на прийом. Перевіряє: чи існують лікар і пацієнт, що час у майбутньому,
     /// що прийом у межах робочих годин лікаря та що немає перетину з іншими прийомами.
-    /// <exception cref="DoctorScheduleConflictException">Час зайнятий або лікар не працює.</exception>
     public Appointment BookAppointment(Guid doctorId, Guid patientId, DateTime start,
                                        int durationMinutes, string complaint = "")
     {
