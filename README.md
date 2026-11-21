@@ -1,4 +1,4 @@
-# Medical Clinic (курсова робота з ООП, варіант 12)
+# Medical Clinic
 
 Два проекти в одному solution:
 
